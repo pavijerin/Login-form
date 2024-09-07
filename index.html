@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+</head>
+<body>
+    <section>
+    
+   <div class="login-box">
+    <from action=""class="login-form" >
+        <h3 class="login-title">LOGIN</h3>
+        <div class="login-content">
+        <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>                                                                                                                                                                                                                                                                                                                                                                                            
+            <input type="text"required class="login-input" placeholder=""id ="loginemail">
+            <lable for="" class="login-lable">Email</lable>
+        </div>
+        <div class="input-box">
+            <span class="icon"><i onclick="toggle()" class="fa-solid fa-lock" id="loginlock"></i></span>
+            <input type="password" required class="login-input" id="loginpass" placeholder="">
+
+            <lable for="" class="login-lable">Password</lable>
+        </div>
+        </div>
+        <div class="login-checkbox">
+        <div class="remember">
+        <input type="checkbox" class="login-check-input">
+        <lable for="" class="login-check-lable">Remember me</lable>
+        </div>
+            <a href="#" class="login-forget" onclick="loginfg()">Forgot Password?</a>
+        </div>
+        <button onclick="func()" class="login-button">
+            Login
+        </button>
+       
+        <div class="login-register">
+            <p>Don't have an account? <a href="#"Register></a></p>
+        </div>
+        
+    </from>
+    </div>
+</section>
+   <script src="index.js"></script>
+</body>
+</html>
